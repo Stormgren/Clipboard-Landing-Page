@@ -1,4 +1,19 @@
-$header;
-$content;
-$col_header;
-$col_content;
+$col_header: 18px;
+$col_content: 16px;
+$header: 2.5rem;
+$content: $col_content;
+$btn_padding: 10px;
+$fas: 22px;
+$mcenter: 0 auto;
+$mobile_width: 575px;
+//######### COLORS ############
+$cyan: hsl(171, 66%, 44%);
+$blue: hsl(233, 100%, 69%);
+$dgray: hsl(210, 10%, 33%);
+$lgray: hsl(201, 11%, 66%);
+
+//######### IMAGES #############
+$img_mobile: url("img/bg-header-mobile.png");
+$img_dekstop: url("img/bg-header-desktop.png");
+$img_width: 75%;
+$img_height: 750px;

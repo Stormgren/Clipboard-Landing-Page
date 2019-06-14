@@ -1,0 +1,31 @@
+@import "variables";
+
+@mixin container_header{
+    font: {
+        size: $header;
+        weight: bold; 
+    }
+    text-align: center;
+}
+
+// @mixin container_content{
+//     font: {
+//         color: $dgray;
+
+//     }
+// }
+@mixin content_header{
+    font: {
+        size: $col_header;
+        weigth: bold;
+        text-align: left;
+    }
+}
+
+@mixin content_text{
+    font: {
+        size: $col_content;
+    }
+    color: $lgray;
+    text-align: center;
+}

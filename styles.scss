@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixins";
+
+*{
+    margin: 0;
+}
+
+body{
+    width: 375px;
+    margin: $mcenter;
+}
+
+.top{
+    background-image: $img_mobile;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding: 100px 125px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.history__header{
+    @include container_header;
+    padding-bottom: 10px;
+}
+
+.history__content{
+    @include content_text;
+    padding: 10px;
+    text-align: center;
+}
+
