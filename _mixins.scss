@@ -1,5 +1,15 @@
 @import "variables";
 
+@mixin flex_mobile{
+ display: flex;
+ flex-direction: column;
+}
+@mixin mobile_img{
+    width: 355px;
+    margin: $mcenter;
+    padding: 10px;
+    height: 250px;
+}
 @mixin container_header{
     font: {
         size: $header;
@@ -8,18 +18,13 @@
     text-align: center;
 }
 
-// @mixin container_content{
-//     font: {
-//         color: $dgray;
-
-//     }
-// }
 @mixin content_header{
     font: {
         size: $col_header;
         weigth: bold;
-        text-align: left;
     }
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 @mixin content_text{
@@ -27,5 +32,27 @@
         size: $col_content;
     }
     color: $lgray;
+    text-align: center;
+}
+
+@mixin buttons{
+    padding: $btn_padding;
+    border-radius: 50px;
+    border: 0px;
+    -webkit-box-shadow: $btn_shadow;
+-moz-box-shadow: $btn_shadow;
+box-shadow: $btn_shadow;
+}
+
+@mixin btn_links{
+    color: white;
+    font-size: $col_content;
+    text-decoration: none;
+
+}
+
+@mixin desc_header{
+    padding: 50px 10px 10px 10px;
+    font-size: 1.8rem;
     text-align: center;
 }

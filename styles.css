@@ -1,10 +1,13 @@
 * {
   margin: 0;
+  font-family: "[Bai Jamjuree]", serif;
 }
 
 body {
   width: 375px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .top {
@@ -20,6 +23,11 @@ body {
   padding: 10px;
 }
 
+.history {
+  display: flex;
+  flex-direction: column;
+}
+
 .history__header {
   font-size: 2.5rem;
   font-weight: bold;
@@ -33,6 +41,200 @@ body {
   text-align: center;
   padding: 10px;
   text-align: center;
+}
+
+.btn__link {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn__iOS {
+  padding: 10px;
+  border-radius: 50px;
+  border: 0px;
+  -webkit-box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  background: #26baa4;
+  border-bottom: 3px solid #1d8777;
+  margin-bottom: 10px;
+}
+
+.btn__mac {
+  padding: 10px;
+  border-radius: 50px;
+  border: 0px;
+  -webkit-box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.4);
+  background: #6173ff;
+  border-bottom: 3px solid #4a59c9;
+  margin-bottom: 10px;
+}
+
+.btn__iOS:hover {
+  background: #2acfb7;
+}
+
+.btn__mac:hover {
+  background: #8a97ff;
+}
+
+.snippets {
+  padding: 30px 0;
+}
+.snippets .snippets__header {
+  padding: 50px 10px 10px 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.snippets .snippets__content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.computer {
+  width: 355px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 250px;
+  padding-bottom: 30px;
+}
+
+.list--item-header {
+  font-size: 18px;
+  font-weigth: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.list--item-content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.access {
+  padding: 30px 0;
+}
+.access .access__header {
+  padding: 50px 10px 10px 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.access .access__content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.device {
+  width: 355px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 250px;
+}
+
+.supercharge {
+  padding: 30px 0;
+}
+.supercharge .supercharge__header {
+  padding: 50px 10px 10px 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.supercharge .supercharge__content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.tools__col .fas {
+  font-size: 33px;
+  padding: 40px 173px;
+}
+.tools__col .tools__col--header {
+  font-size: 18px;
+  font-weigth: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.tools__col .tools__col--content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.brands .brand__img {
+  padding: 20px;
+}
+
+.download {
+  padding: 30px 0;
+}
+.download .download__header {
+  padding: 50px 10px 10px 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.download .download__content {
+  font-size: 16px;
+  color: #9fabb2;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: #f4f5f6;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+footer .logo__footer {
+  height: 50px;
+  width: 50px;
+  padding: 30px 160px;
+}
+
+.links li {
+  list-style: none;
+  padding: 10px 35px 10px 0;
+  text-align: center;
+}
+.links li .footer__link {
+  color: #4c545d;
+  text-decoration: none;
+}
+.links li .footer__link:hover {
+  color: #26baa4;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 20px;
+}
+
+a .fab {
+  margin-right: 30px;
+  padding-left: 30px;
+  color: #4c545d;
+  text-decoration: none;
+}
+
+a .fab:hover {
+  color: #26baa4;
 }
 
 /*# sourceMappingURL=styles.css.map */

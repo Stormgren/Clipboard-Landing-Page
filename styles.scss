@@ -3,11 +3,13 @@
 
 *{
     margin: 0;
+    font-family: '[Bai Jamjuree]', serif;
 }
 
 body{
     width: 375px;
     margin: $mcenter;
+    @include flex_mobile;
 }
 
 .top{
@@ -22,7 +24,9 @@ body{
 .container{
     padding: 10px;
 }
-
+.history{
+    @include flex_mobile;
+}
 .history__header{
     @include container_header;
     padding-bottom: 10px;
@@ -34,3 +38,160 @@ body{
     text-align: center;
 }
 
+.btn__link{
+    @include btn_links;
+}
+.btn__iOS{
+    @include buttons;
+    background: $cyan;
+    border-bottom: 3px solid hsl(171, 65%, 32%);
+    margin-bottom: 10px;
+}
+
+.btn__mac{
+    @include buttons;
+    background: $blue;
+    border-bottom: 3px solid hsl(233, 54%, 54%);
+    margin-bottom: 10px;
+}
+
+.btn__iOS:hover{
+    background: lighten($color: $cyan, $amount: 5);
+}
+
+.btn__mac:hover{
+    background: lighten($color: $blue, $amount: 8);
+}
+
+.snippets{
+    padding: 30px 0;
+    .snippets__header{
+        @include desc_header;
+    }
+    .snippets__content{
+        @include content_text;
+        font-size: 1.1rem;
+    }
+
+}
+
+.computer{
+    @include mobile_img;
+    padding-bottom: 30px;
+}
+
+
+.list--item-header{
+@include content_header;
+}
+
+.list--item-content{
+    @include content_text;
+    padding-bottom: 10px;
+}
+
+.access{
+    padding: 30px 0;
+    .access__header{
+        @include desc_header;
+    }
+    .access__content{
+        @include content_text;
+        font-size: 1.1rem;
+    }
+
+}
+
+.device{
+    @include mobile_img;
+}
+
+.supercharge{
+    padding: 30px 0;
+    .supercharge__header{
+        @include desc_header;
+    }
+    .supercharge__content{
+        @include content_text;
+        font-size: 1.1rem;
+    }
+
+}
+
+.tools__col{
+    .fas{
+        font-size: 33px;
+        padding: 40px 173px;
+    }
+    .tools__col--header{
+        @include content_header;
+    }
+    .tools__col--content{
+        @include content_text;
+    }
+
+}
+
+.brands{
+    @include flex_mobile;
+    width: 150px;
+    margin: $mcenter;
+    padding-top: 30px;
+
+    .brand__img{
+        padding: 20px;
+    }
+}
+
+.download{
+    padding: 30px 0;
+    .download__header{
+        @include desc_header;
+    }
+    .download__content{
+        @include content_text;
+        font-size: 1.1rem;
+    }
+
+}
+
+footer{
+    background: lighten($color: $lgray, $amount: 30);
+    margin-top: 100px;
+    padding-bottom: 50px;
+.logo__footer{
+    height: 50px;
+    width: 50px;
+    padding: 30px 160px; 
+}
+}
+.links{
+    li{
+        list-style: none;
+        padding: 10px 35px 10px 0;
+        text-align: center;
+        .footer__link{
+            color: $dgray;
+            text-decoration: none;
+        }
+        .footer__link:hover{
+            color: $cyan;
+        }
+    }
+
+
+}
+.contact{
+    text-align: center;
+    padding-top: 20px;
+}
+a .fab{
+   margin-right: 30px;
+   padding-left: 30px;
+   color: $dgray;
+   text-decoration: none;
+}
+
+a .fab:hover{
+    color: $cyan;
+}
