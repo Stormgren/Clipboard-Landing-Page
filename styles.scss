@@ -223,13 +223,9 @@ a .fab:hover{
     }
 
 .wrapper{
-    width: 375px;
+    width: 360px;
     margin: $mcenter;
 }
-    // .container, .features, .access, .supercharge, .tools, .download,.btn__iOS,  .btn__mac {
-    //     max-width: 375px;
-    //     margin: $mcenter;
-    // }
     .btn__iOS {
         width: 360px;
         margin-bottom: 10px;
@@ -245,14 +241,28 @@ a .fab:hover{
 
 
 
-// @media (min-width: 800px){
-//     body{
-//         width: 80%;
-//         margin: $mcenter;
-//     }
+ @media (min-width: 750px){
+     *body{
+         width: 100%;
+     }
+    .top{
+        background-image:  $img_dekstop;
+        background-size: cover;
+        width: 100%;
+    }
 
-//     .top{
-//         background-image: $img_dekstop;
-//     }
-// }
+    .wrapper{
+        width: 720px;
+        margin: $mcenter;
+    }
+
+    .container, .features, .access, .supercharge, .tools, .download,.btn__iOS,  .btn__mac {
+        max-width: 720px;
+        margin: $mcenter;
+    }
+
+    .btn__iOS,  .btn__mac{
+        display: inline;
+    }
+ }
 
