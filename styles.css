@@ -16,7 +16,10 @@ body {
 }
 
 .logo {
-  padding: 100px 125px;
+  padding: 100px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -197,6 +200,20 @@ body {
   font-size: 1.1rem;
 }
 
+.container, .features, .access, .supercharge, .tools, .download, .btn__iOS, .btn__mac {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.btn__iOS {
+  width: 360px;
+  margin-bottom: 10px;
+}
+
+.btn__mac {
+  width: 360px;
+}
+
 footer {
   background: #f4f5f6;
   margin-top: 100px;
@@ -205,7 +222,10 @@ footer {
 footer .logo__footer {
   height: 50px;
   width: 50px;
-  padding: 30px 160px;
+  padding: 30px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .links li {
@@ -235,6 +255,38 @@ a .fab {
 
 a .fab:hover {
   color: #26baa4;
+}
+
+@media (min-width: 400px) and (max-width: 750px) {
+  body {
+    max-width: 750px;
+  }
+
+  .top {
+    background-image: url("img/bg-header-desktop.png");
+    background-size: auto;
+    width: 750px;
+    margin-left: -50%;
+  }
+
+  .wrapper {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  .btn__iOS {
+    width: 360px;
+    margin-bottom: 10px;
+  }
+
+  .btn__mac {
+    width: 360px;
+  }
+
+  footer {
+    width: 750px;
+    margin-left: -50%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

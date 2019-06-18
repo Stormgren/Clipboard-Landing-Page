@@ -1,7 +1,6 @@
 @import "variables";
 @import "mixins";
-
-
+@import "mid";
 
 *{
     margin: 0;
@@ -20,7 +19,8 @@ body{
 }
 
 .logo{
-    padding: 100px 125px;
+    padding: 100px 0;
+    @include center_logo;
 }
 
 .container{
@@ -156,7 +156,17 @@ body{
     }
 
 }
-
+.container, .features, .access, .supercharge, .tools, .download,.btn__iOS,  .btn__mac {
+    max-width: 360px;
+    margin: $mcenter;
+}
+.btn__iOS {
+    width: 360px;
+    margin-bottom: 10px;
+}
+.btn__mac {
+    width: 360px;
+}
 footer{
     background: lighten($color: $lgray, $amount: 30);
     margin-top: 100px;
@@ -164,7 +174,8 @@ footer{
 .logo__footer{
     height: 50px;
     width: 50px;
-    padding: 30px 160px; 
+    padding: 30px 0;
+    @include center_logo; 
 }
 }
 .links{
@@ -197,3 +208,51 @@ a .fab{
 a .fab:hover{
     color: $cyan;
 }
+
+
+@media (min-width: 400px) and (max-width: 750px){
+    body{
+         max-width: 750px;
+//  margin: $mcenter;
+}
+    .top{
+        background-image:  $img_dekstop;
+        background-size: auto;
+        width: 750px;
+        margin-left: -50%;
+    }
+
+.wrapper{
+    width: 375px;
+    margin: $mcenter;
+}
+    // .container, .features, .access, .supercharge, .tools, .download,.btn__iOS,  .btn__mac {
+    //     max-width: 375px;
+    //     margin: $mcenter;
+    // }
+    .btn__iOS {
+        width: 360px;
+        margin-bottom: 10px;
+    }
+    .btn__mac {
+        width: 360px;
+    }
+     footer{
+         width: 750px;
+         margin-left: -50%;
+     }
+    }
+
+
+
+// @media (min-width: 800px){
+//     body{
+//         width: 80%;
+//         margin: $mcenter;
+//     }
+
+//     .top{
+//         background-image: $img_dekstop;
+//     }
+// }
+
