@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree");
+
 @import "variables";
 @import "mixins";
-@import "mid";
+
 
 *{
     margin: 0;
-    font-family: '[Bai Jamjuree]', serif;
+font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body{
