@@ -288,7 +288,7 @@ a .fab:hover {
     margin-left: -50%;
   }
 }
-@media (min-width: 751px) {
+@media (min-width: 980px) {
   * body {
     width: 100%;
   }
@@ -300,8 +300,9 @@ a .fab:hover {
   }
 
   .wrapper {
-    width: 720px;
+    width: 980px;
     margin: 0 auto;
+    z-index: 1;
   }
 
   .container, .features, .access, .supercharge, .tools, .download, .btn__iOS, .btn__mac {
@@ -318,6 +319,58 @@ a .fab:hover {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    padding: 20px;
+  }
+
+  .history, .access, .snippets, .supercharge, .download {
+    width: 580px;
+    margin: 0 auto;
+  }
+
+  .features {
+    width: 740px;
+    display: flex;
+    flex-direction: row;
+  }
+  .features .pc {
+    overflow: hidden;
+    width: 480px;
+    padding-right: 260px;
+  }
+  .features .computer {
+    width: 460px;
+    height: 320px;
+    margin-left: -15%;
+  }
+  .features .features__list {
+    padding: 30px 10px;
+  }
+  .features .list--item-header, .features .list--item-content {
+    text-align: left;
+  }
+
+  .device {
+    width: 460px;
+    height: 320px;
+    margin: 0 25%;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    margin: 10px 5%;
+  }
+  .tools .tools__col {
+    width: 280px;
+    margin-right: 12px;
+  }
+  .tools .tools__col .fas {
+    margin: 10px -18%;
+  }
+
+  .brands {
+    display: inline;
   }
 }
 

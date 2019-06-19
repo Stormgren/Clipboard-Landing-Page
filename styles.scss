@@ -241,7 +241,7 @@ a .fab:hover{
 
 
 
- @media (min-width: 751px){
+ @media (min-width: 980px){
      *body{
          width: 100%;
      }
@@ -252,8 +252,9 @@ a .fab:hover{
     }
 
     .wrapper{
-        width: 720px;
+        width: 980px;
         margin: $mcenter;
+        z-index: 1;
     }
 
     .container, .features, .access, .supercharge, .tools, .download,.btn__iOS,  .btn__mac {
@@ -270,6 +271,57 @@ a .fab:hover{
         margin: $mcenter;
         display: flex;
         flex-direction: row;
+        padding: 20px;
+    }
+
+    .history, .access, .snippets, .supercharge, .download{
+        width: 580px;
+        margin: $mcenter;
+    }
+    .features{
+        width: 740px;
+        display: flex;
+        flex-direction: row;
+        .pc{
+            overflow: hidden;
+            width: 480px;
+            padding-right: 260px; //################### Added this span so the page would look like it does on the desing 
+        }
+        .computer{
+            @include dekstop_img;
+             margin-left: -15%;
+        }
+
+        .features__list{
+            padding: 30px 10px;
+        }
+        .list--item-header, .list--item-content{
+            text-align: left;
+        }    
+    }
+
+    .device{
+        @include dekstop_img;
+        margin: 0 25%;
+    }
+
+    .tools{
+        display: flex;
+        flex-direction: row;
+        width: 860px;
+        margin: 10px 5%;
+
+        .tools__col{
+            width: 280px;
+            margin-right: 12px;
+            .fas{
+                margin: 10px -18%;
+            }
+        }
+    }
+
+    .brands{
+        display: inline;
     }
  }
 

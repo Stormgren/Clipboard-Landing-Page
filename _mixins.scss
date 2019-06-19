@@ -10,6 +10,11 @@
     padding: 10px;
     height: 250px;
 }
+
+@mixin dekstop_img{
+    width: 460px;
+    height: 320px;
+}
 @mixin container_header{
     font: {
         size: $header;
