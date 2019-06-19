@@ -323,5 +323,37 @@ a .fab:hover{
     .brands{
         display: inline;
     }
+
+    footer{
+        height: 75px;
+    .footer{
+        width: 980px;
+        margin: $mcenter;
+        display: flex;
+        flex-direction: row;
+        
+        .logo__footer{
+           @include left_logo;
+        }
+
+        .links{
+            display: flex;
+            flex-direction: row;
+            margin-right: 100px;
+
+            .links__col{
+                padding: 18px;
+                padding-bottom: 10px;
+            }
+
+            li {
+                text-align: left;
+            }
+        }
+        .contact{
+            padding-top: 50px;
+        }
+    }
+}
  }
 

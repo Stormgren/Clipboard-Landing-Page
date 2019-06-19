@@ -372,6 +372,34 @@ a .fab:hover {
   .brands {
     display: inline;
   }
+
+  footer {
+    height: 75px;
+  }
+  footer .footer {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  footer .footer .logo__footer {
+    margin-left: 10px;
+  }
+  footer .footer .links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+  }
+  footer .footer .links .links__col {
+    padding: 18px;
+    padding-bottom: 10px;
+  }
+  footer .footer .links li {
+    text-align: left;
+  }
+  footer .footer .contact {
+    padding-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
