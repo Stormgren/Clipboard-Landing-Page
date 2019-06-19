@@ -258,7 +258,7 @@ a .fab:hover {
   color: #26baa4;
 }
 
-@media (min-width: 400px) and (max-width: 750px) {
+@media (min-width: 400px) and (max-width: 980px) {
   body {
     max-width: 750px;
   }
@@ -266,8 +266,8 @@ a .fab:hover {
   .top {
     background-image: url("img/bg-header-desktop.png");
     background-size: auto;
-    width: 750px;
-    margin-left: -50%;
+    width: 980px;
+    margin-left: -75%;
   }
 
   .wrapper {
@@ -285,8 +285,8 @@ a .fab:hover {
   }
 
   footer {
-    width: 750px;
-    margin-left: -50%;
+    width: 980px;
+    margin-left: -75%;
   }
 }
 @media (min-width: 980px) {

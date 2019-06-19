@@ -212,7 +212,7 @@ a .fab:hover{
 }
 
 
-@media (min-width: 400px) and (max-width: 750px){
+@media (min-width: 400px) and (max-width: 980px){
     body{
          max-width: 750px;
 //  margin: $mcenter;
@@ -220,8 +220,8 @@ a .fab:hover{
     .top{
         background-image:  $img_dekstop;
         background-size: auto;
-        width: 750px;
-        margin-left: -50%;
+        width: 980px;
+        margin-left: -75%;
     }
 
 .wrapper{
@@ -236,11 +236,19 @@ a .fab:hover{
         width: 360px;
     }
      footer{
-         width: 750px;
-         margin-left: -50%;
+         width: 980px;
+         margin-left: -75%;
      }
     }
 
+
+// @media(min-width: 750px) and (max-width: 980px){
+//     body{
+//         max-width: 980px;
+//     }
+
+//     .top{}
+// }
 
 
  @media (min-width: 980px){
