@@ -215,7 +215,6 @@ a .fab:hover{
 @media (min-width: 400px) and (max-width: 980px){
     body{
          max-width: 750px;
-//  margin: $mcenter;
 }
     .top{
         background-image:  $img_dekstop;
@@ -240,16 +239,6 @@ a .fab:hover{
          margin-left: -75%;
      }
     }
-
-
-// @media(min-width: 750px) and (max-width: 980px){
-//     body{
-//         max-width: 980px;
-//     }
-
-//     .top{}
-// }
-
 
  @media (min-width: 980px){
      *body{
