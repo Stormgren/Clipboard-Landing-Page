@@ -14,6 +14,6 @@ https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c9111
 </p>
 <p align="center">Mobile Preview</p>
 <p align="center">                                                                                                                                    
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/voykxa1c0o8esyknz1jf.jpg" width="400" title="Mobile version">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/voykxa1c0o8esyknz1jf.jpg" width="750" title="Mobile version">
 </p>
 </p>
