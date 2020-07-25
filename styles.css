@@ -337,11 +337,11 @@ a .fab:hover {
     overflow: hidden;
     width: 480px;
     padding-right: 260px;
+    padding-top: 25px;
   }
   .features .computer {
-    width: 460px;
-    height: 320px;
-    margin-left: -15%;
+    width: 420px;
+    height: 280px;
   }
   .features .features__list {
     padding: 30px 10px;
@@ -351,8 +351,8 @@ a .fab:hover {
   }
 
   .device {
-    width: 460px;
-    height: 320px;
+    width: 420px;
+    height: 280px;
     margin: 0 25%;
   }
 

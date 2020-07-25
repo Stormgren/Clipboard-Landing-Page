@@ -285,10 +285,11 @@ a .fab:hover{
             overflow: hidden;
             width: 480px;
             padding-right: 260px; //################### Added this span so the page would look like it does on the desing 
+            padding-top: 25px;
         }
         .computer{
             @include dekstop_img;
-             margin-left: -15%;
+            //  margin-left: -15%;
         }
 
         .features__list{
