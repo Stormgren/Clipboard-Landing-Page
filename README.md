@@ -1,6 +1,8 @@
 # Clipboard-Landing-Page
 Landing Page for fictional app
 
+Live preview: https://clipboard-landing-page-stormgren.netlify.app/
+
 This is a landing page for a fictional website called Clipboard, created with usage of SCSS.
 
 Built to match frontendmentors challenge, with slight changes to some parts:
